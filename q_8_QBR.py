@@ -18,8 +18,8 @@ np.random.seed(SEED)
 random.seed(SEED)
 algorithm_globals.random_seed = SEED
 
-CSV_DRAWN = "/Users/4c/Desktop/GHQ/data/loto7hh_4582_k22.csv"
-CSV_ALL   = "/Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv"
+CSV_DRAWN = "/data/loto7hh_4582_k22.csv"
+CSV_ALL   = "/data/kombinacijeH_39C7.csv"
 
 MIN_VAL = [1, 2, 3, 4, 5, 6, 7]
 MAX_VAL = [33, 34, 35, 36, 37, 38, 39]
@@ -169,25 +169,19 @@ if __name__ == "__main__":
 
 
 """
-Ucitano izvucenih kombinacija: 4580
+Ucitano izvucenih kombinacija: 4582
 Graf svih kombinacija: /Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv
   Primer: [1, 2, 3, 4, 5, 6, 7] ... [1, 2, 3, 4, 5, 6, 9]
 
 --- QBR (5q, 3 sloja, Ry+Rz+CX, COBYLA 200 iter) ---
   Parametara po modelu: 30
-  Poz 1... loss=0.106817  top: 17:0.053 | 1:0.052 | 9:0.051
-  Poz 2... loss=0.092450  top: 2:0.078 | 3:0.074 | 4:0.071
-  Poz 3... loss=0.102388  top: 17:0.067 | 18:0.065 | 16:0.055
-  Poz 4... loss=0.083588  top: 35:0.089 | 4:0.081 | 34:0.081
-  Poz 5... loss=0.068908  top: 36:0.101 | 35:0.077 | 5:0.070
-  Poz 6... loss=0.108704  top: 37:0.057 | 27:0.054 | 28:0.054
-  Poz 7... loss=0.087100  top: 38:0.080 | 7:0.074 | 8:0.062
-
-==================================================
-Predikcija (QBR, deterministicki, seed=39):
-[17, 31, 34, 35, 36, 37, 38]
-==================================================
-
+  Poz 1... loss=0.111475  top: 17:0.055 | 18:0.052 | 8:0.048
+  Poz 2... loss=0.102012  top: 2:0.092 | 3:0.076 | 4:0.066
+  Poz 3... loss=0.105957  top: 34:0.075 | 17:0.061 | 16:0.053
+  Poz 4... loss=0.079860  top: 4:0.102 | 35:0.091 | 34:0.080
+  Poz 5... loss=0.119632  top: 9:0.069 | 8:0.067 | 21:0.061
+  Poz 6... loss=0.108218  top: 37:0.058 | 27:0.052 | 28:0.052
+  Poz 7... loss=0.117143  top: 38:0.077 | 22:0.056 | 21:0.055
 
 ==================================================
 Predikcija (QBR, deterministicki, seed=39):
